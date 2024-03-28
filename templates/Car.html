@@ -1,0 +1,44 @@
+{% extends 'Navbar.html' %}
+{% load static %}
+<html lang="en">
+{% block body %}
+<div class="card-group">
+  <div class="card">
+    <img src="{% static 'images/img_5.png' %}" alt="My image" width="400" height="300"/>
+    <div class="card-body">
+      <h5 class="Card-title">Holiday Charm</h5>
+      <p class="card-text">Holiday Charm has grown from one vehicle to a significant business of 180+ bus services
+        with over 400 employees in 36 branches which include Bangalore, Bapatla, Chirala, Chilakaluripet, Eluru,
+        Gudavalli, Guntur, Hyderabad, Narsaraopet, Tenali, Tirupati, Vijayawada, Visakhapatnam, Narsapuram,
+        Repalle etc.,</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-body-secondary">Last updated 3 mins ago</small></br>
+      <a href="#" class="btn btn-primary">Book Ticket</a>
+    </div>
+  </div>
+  <div class="card">
+    <img src="{% static 'images/img_8.png' %}" alt="My image" width="400" height="300"/>
+    <div class="card-body">
+      <h5 class="card-title">Speedy Move</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-body-secondary">Last updated 3 mins ago</small></br>
+      <a href="#" class="btn btn-primary">Book Ticket</a>
+    </div>
+  </div>
+  <div class="card">
+    <img src="{% static 'images/img_7.png' %}" alt="My image" width="400" height="300"/>
+    <div class="card-body">
+      <h5 class="card-title">Dream Movers</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-body-secondary">Last updated 3 mins ago</small></br>
+      <a href="#" class="btn btn-primary">Book Ticket</a>
+    </div>
+  </div>
+</div>
+{% endblock %}
+</html>
